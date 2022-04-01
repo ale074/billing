@@ -1,4 +1,6 @@
-class Producto_de_Control:
+from model.Producto import Producto
+
+class Producto_de_Control(Producto):
     def __init__(self, iCA, frecuencia) -> None:
         self.iCA = iCA
         self.frecuencia = frecuencia
